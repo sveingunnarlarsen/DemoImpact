@@ -7,6 +7,8 @@ interface MyButtonProps {
     buttonText: string;
 }
 
+console.log("test");
+
 class MyButton extends React.Component<MyButtonProps> {
 
     render() {
